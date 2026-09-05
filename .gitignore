@@ -1,0 +1,23 @@
+# Dependencies and environments
+.env
+*.env
+.env.local
+
+# Keys and Certificates
+*.key
+*.pem
+*.pub
+*.crt
+*.p12
+
+# Runtime logs and cache
+*.log
+systemd.log
+catcher.log
+success.json
+
+# System & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,17 @@
+[Unit]
+Description=Oracle ARM Capacity Catcher Daemon
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/oci-arm-catcher
+ExecStart=/home/ubuntu/oci-arm-catcher/catcher.sh
+Restart=on-failure
+RestartSec=30
+StandardOutput=append:/home/ubuntu/oci-arm-catcher/systemd.log
+StandardError=append:/home/ubuntu/oci-arm-catcher/systemd.log
+
+[Install]
+WantedBy=multi-user.target
