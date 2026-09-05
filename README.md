@@ -1,7 +1,7 @@
 # oci-arm-catcher-turbo 🚀
 
 极简、可靠、无人值守的 **Oracle Cloud (甲骨文云) ARM (`VM.Standard.A1.Flex`) 自动抢机脚本**。
-<img width="1080" height="2344" alt="image" src="https://github.com/user-attachments/assets/67d32953-d843-4371-9dbf-efbd12571659" />
+<img width="580" height="744" alt="image" src="https://github.com/user-attachments/assets/67d32953-d843-4371-9dbf-efbd12571659" />
 
 
 基于官方 **OCI CLI** 实现，支持多 AD 自动轮询、`--no-retry` 精确节流、成功即停零重复开机保障，并内置 **Server酱微信通知**。
